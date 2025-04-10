@@ -69,6 +69,8 @@ table {
 * {
     font-size: var(--font-size);
     font-family: var(--font-family);
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 /*HTML STYLES*/
@@ -78,12 +80,15 @@ html {
 
 /*BODY STYLES*/
 body {
-    font-size: var(--font-size);
     font-family: var(--font-family);
+    background-color: var(--soft-white);
+    color: var(--dark-charcoal);
+    line-height: 1.5;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
 }
 /* MEDIA QUERY (medium) */
 
