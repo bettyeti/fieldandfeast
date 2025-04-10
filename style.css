@@ -62,10 +62,29 @@ table {
     --linen: #F8F4EC;
     --dark-charcoal: #2B2B2B;
     --soft-white: #FAF9F6;
+    --font-size: 1rem;
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+* {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
 
+/*HTML STYLES*/
+html {
+    font-size: 100%;
+}
+
+/*BODY STYLES*/
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 3rem;
+}
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
